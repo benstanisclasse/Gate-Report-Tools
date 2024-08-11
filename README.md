@@ -1,4 +1,5 @@
 This program is a Python-based graphical user interface (GUI) application designed to manage and manipulate CSV files, specifically for a system related to gate and RFID management at a location like Kings Point. The application is built using the PyQt5 library, which allows it to have a user-friendly interface for interacting with CSV files without needing to use the command line or a text editor.
+![image](https://github.com/user-attachments/assets/d696e3c5-d735-4646-a6f0-6af085c4a5dd)
 
 ### Key Features and Functions:
 
@@ -6,10 +7,13 @@ This program is a Python-based graphical user interface (GUI) application design
    - This feature allows users to load a CSV file and generate a report based on the gate and RFID data contained within. The report is displayed in a table format within the application.
 
 2. **User Adds**:
+
+![image](https://github.com/user-attachments/assets/c2b79918-db50-4dbd-aae6-0e299619d9a9)
+
    - This feature enables users to add a range of user entries to a CSV file. It prompts the user for a range of numbers, which are then used to populate specific fields in the CSV file, such as "Surname" and "Card Number". The user is also prompted to select a department and access level for the new entries.
    - The new entries are either inserted at the first available empty row in the CSV file or appended to the end if no empty rows are found.
 
-3. **Combine Files**:
+4. **Combine Files**:
    - This feature allows the user to select two CSV files and combine them into one. The combined file can then be saved as a new CSV file. The program checks if the two files have the same column headers before combining them to ensure data integrity.
 
 ### Detailed Breakdown of the Interface:
