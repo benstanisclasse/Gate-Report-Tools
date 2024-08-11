@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "gate", "gate.pyproj", "{EA25F033-93BC-4BCF-9CC9-FD2FDC8FA5FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA25F033-93BC-4BCF-9CC9-FD2FDC8FA5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA25F033-93BC-4BCF-9CC9-FD2FDC8FA5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31B10FE2-21F5-4952-9CD7-D9D5BEBC1ECC}
+	EndGlobalSection
+EndGlobal
