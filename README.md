@@ -76,7 +76,7 @@ This application is available as a standalone executable file, meaning you can r
 ### How to Run the Executable
 
 1. **Download the Executable:**
-   - Locate the `gate.exe` file in the [releases section](#) of this repository (or wherever the executable is distributed). Download the file to your local machine.
+   - Locate the `gate.exe` file in the program file of this repository. Download the file to your local machine.
 
 2. **Run the Application:**
    - Simply double-click the `gate.exe` file. This will launch the Kings Point application, where you can interact with the various features, such as generating gate reports, adding users to CSV files, and combining CSV files.
