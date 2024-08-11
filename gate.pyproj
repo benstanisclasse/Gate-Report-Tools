@@ -22,11 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="gate.py" />
-    <Compile Include="module1.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.png" />
     <Content Include="README.md" />
+    <Content Include="requirements.txt" />
     <Content Include="Test data\Add users.csv" />
     <Content Include="Test data\Combine %281%29.csv" />
     <Content Include="Test data\Combine %282%29.csv" />
