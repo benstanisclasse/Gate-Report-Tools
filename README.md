@@ -95,7 +95,3 @@ This application is available as a standalone executable file, meaning you can r
 
 By providing an executable file, we've made it easy to deploy and use the Kings Point application on any Windows machine with minimal hassle.
 
----
-
-This section in the README will help users understand that they can run the application without needing to set up a Python environment, making the software more accessible to non-developers.
-
