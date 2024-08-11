@@ -31,9 +31,12 @@
     <Content Include="Test data\Combine %281%29.csv" />
     <Content Include="Test data\Combine %282%29.csv" />
     <Content Include="Test data\Gate report.csv" />
+    <Content Include="Test data\program\gate.exe" />
+    <Content Include="Test data\program\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Test data\" />
+    <Folder Include="Test data\program\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
