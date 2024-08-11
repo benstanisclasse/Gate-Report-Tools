@@ -7,6 +7,7 @@ This program is a Python-based graphical user interface (GUI) application design
    - This feature allows users to load a CSV file and generate a report based on the gate and RFID data contained within. The report is displayed in a table format within the application.
 
 2. **User Adds**:
+
 ![image](https://github.com/user-attachments/assets/c2b79918-db50-4dbd-aae6-0e299619d9a9)
 
    - This feature enables users to add a range of user entries to a CSV file. It prompts the user for a range of numbers, which are then used to populate specific fields in the CSV file, such as "Surname" and "Card Number". The user is also prompted to select a department and access level for the new entries.
