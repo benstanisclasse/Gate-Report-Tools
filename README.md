@@ -65,4 +65,33 @@ This program is a Python-based graphical user interface (GUI) application design
 - The program relies on CSV files with specific column structures, such as having columns like "Surname," "Card Number," and "Where" for gate data. 
 - It is designed to work with UTF-8 encoded CSV files and can handle typical CSV file operations required in a gate and RFID management system.
 
-This application is an example of how Python, combined with libraries like PyQt5, can be used to build a powerful yet user-friendly tool for managing data in a specific domain.
+Here’s how you can include a section in your README file that explains the availability and use of the executable file:
+
+---
+
+## Running the Application
+
+This application is available as a standalone executable file, meaning you can run it without needing to have Python installed on your system or worry about setting up a Python environment.
+
+### How to Run the Executable
+
+1. **Download the Executable:**
+   - Locate the `gate.exe` file in the program file of this repository. Download the file to your local machine.
+
+2. **Run the Application:**
+   - Simply double-click the `gate.exe` file. This will launch the Kings Point application, where you can interact with the various features, such as generating gate reports, adding users to CSV files, and combining CSV files.
+
+3. **No Installation Required:**
+   - The executable is self-contained, meaning it has all the necessary dependencies bundled within it. You do not need to install any additional software or libraries.
+
+4. **Cross-Platform Considerations:**
+   - This executable is currently built for Windows. If you are using a different operating system (e.g., macOS or Linux), you will need to run the Python source code directly or use a tool like Wine to run the executable on your system.
+
+### Benefits of the Executable
+
+- **Ease of Use:** Running the application as an executable simplifies the process for end-users who may not be familiar with Python or programming.
+- **Portability:** The standalone executable can be easily transferred between different machines and environments without requiring additional setup.
+- **Efficiency:** Since everything needed to run the application is included in the executable, it eliminates the need for manual dependency management, reducing the potential for errors and compatibility issues.
+
+By providing an executable file, we've made it easy to deploy and use the Kings Point application on any Windows machine with minimal hassle.
+
