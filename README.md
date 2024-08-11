@@ -1,4 +1,5 @@
 This program is a Python-based graphical user interface (GUI) application designed to manage and manipulate CSV files, specifically for a system related to gate and RFID management at a location like Kings Point. The application is built using the PyQt5 library, which allows it to have a user-friendly interface for interacting with CSV files without needing to use the command line or a text editor.
+![image](https://github.com/user-attachments/assets/d696e3c5-d735-4646-a6f0-6af085c4a5dd)
 
 ### Key Features and Functions:
 
