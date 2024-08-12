@@ -179,7 +179,7 @@ class FileDialogDemo(QMainWindow):
         if not ok_acc:
             return
 
-        current_date = QDate.currentDate().toString("yyyy-MM-dd")
+        current_date = QDate.currentDate().toString("yyyy-MMM-dd")  # Format date as "1999-Jan-01"
 
         # Load the CSV file
         rows = []
@@ -238,7 +238,7 @@ class FileDialogDemo(QMainWindow):
                 rows.append(new_row)
             first_empty_index += 1
 
-                # Save the updated CSV file
+        # Save the updated CSV file
         with open(fileName, mode='w', newline='', encoding='utf-8-sig') as file:
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             writer.writeheader()
@@ -368,4 +368,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
