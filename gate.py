@@ -168,7 +168,7 @@ class FileDialogDemo(QMainWindow):
             return
 
         # Prompt the user to select the Department
-        department_options = ["Resident", "RFID tag"]
+        department_options = ["Residents", "RFID tag"]
         department, ok_dep = QInputDialog.getItem(self, "Select Department", "Choose a Department:", department_options, 0, False)
         if not ok_dep:
             return
