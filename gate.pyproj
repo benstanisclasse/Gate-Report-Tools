@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ea25f033-93bc-4bcf-9cc9-fd2fdc8fa5fe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>gate.py</StartupFile>
+    <StartupFile>api_upload.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="gate.py" />
+    <Compile Include="api_upload.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.png" />

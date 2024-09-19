@@ -174,7 +174,7 @@ class FileDialogDemo(QMainWindow):
             return
 
         # Prompt the user to select the Access level
-        access_level_options = ["Normandy Bathroom", "Main Hall", "Gym", "Pool"]
+        access_level_options = ["Normandy Bathroom", "Std Gate Hours"]
         access_level, ok_acc = QInputDialog.getItem(self, "Select Access Level", "Choose an Access Level:", access_level_options, 0, False)
         if not ok_acc:
             return
